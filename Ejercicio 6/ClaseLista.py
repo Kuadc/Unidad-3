@@ -86,7 +86,7 @@ class Lista:
     def toJSON(self):
         d = dict(
             __class__ = self.__class__.__name__,
-            Electrodomesticos = [Electrodomesticos.toJSON() for nodos in ]
+            Electrodomesticos = [Electrodomesticos.toJSON() for nodos in self.__comienzo]
             )
         return d
 
