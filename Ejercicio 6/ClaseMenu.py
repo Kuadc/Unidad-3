@@ -99,8 +99,8 @@ class Menu:
         #Verificar si dos conjuntos son iguales
         lista2 = Lista()
         d=lista.toJSON()
-        jsonF.guardarJSONArchivo(d,'datosPuntos.json')
-        diccionario=jsonF.leerJSONArchivo('datosPuntos.json')
+        jsonF.guardarJSONArchivo(d,'Electrodomesticos.json')
+        diccionario=jsonF.leerJSONArchivo('Electrodomesticos.json')
         lista2=jsonF.decodificarDiccionario(diccionario)
         for datos in lista2:
             print(datos)
